@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    color: white;
+    font-family: 'Lucida Grande Regular',"helvetica",sans-serif;
+    font-size: 2vw;
+    font-weight: lighter;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display:block;
+}
+.menu { 
+    position: fixed; 
+    width: 100%; 
+    top: 0vw;
+    height: 7vw;
+    background-color: #AAAFFF;
+    opacity: 50%;
+    z-index: 9999999;
+}
+
+.name{
+    position: absolute ;
+    text-align: center;
+    text-transform: uppercase;
+    left:auto;
+    right: auto;
+    width: 100%;
+    top: -2vw;
+    font-size: 3vw;
+    text-shadow: 3px 3px lightgreen;
+    opacity: 100%; 
+    z-index:99999;
+    
+}
+
+.portfolio{ 
+    
+    position: absolute ;
+    width: 100%;
+    height:auto;
+    left:auto;
+    right: auto;
+    top: 2vw;
+    text-align: center;
+    text-shadow: 3px 3px lightgreen;
+    z-index:999999;
+
+}
+ .test{ 
+        
+    width: 100vw;
+    height: auto;
+    position: absolute ;
+    left: 0vw;
+    right: auto;
+    top: 9vw;
+    z-index:1;
+}
+ .oktopus{ 
+        
+    width: 13vw;
+    height: auto;
+    position: fixed;
+    left: 58vw;
+    right: auto;
+    top: 1vw;
+     opacity: 100%;
+    z-index:9999999;
+}
+
+ .klee{ 
+        
+    width: 20vw;
+    height: auto;
+    position: absolute ;
+    left:15vw;
+    right: auto;
+    top: 14vw;
+    z-index:2;
+}
+
+.klee:hover{
+    opacity: 50%;
+    cursor:pointer; 
+    box-shadow: 1px 1px 15px #AAAFFF;
+}
+
+ .cocoon{ 
+        
+    width: 27vw;
+    height: auto;
+    position: absolute ;
+    left:37vw;
+    right: auto;
+    top: 14vw;
+    z-index:2;
+}
+
+.cocoon:hover{
+    opacity: 50%;
+    cursor:pointer; 
+    box-shadow: 1px 1px 15px #AAAFFF;
+}
+
+ .bgbroschüre{ 
+        
+    width: 20vw;
+    height: auto;
+    position: absolute ;
+    left:66vw;
+    right: auto;
+    top: 14vw;
+    z-index:2;
+}
+
+.bgbroschüre:hover{
+    opacity: 50%;
+    cursor:pointer; 
+    box-shadow: 1px 1px 15px #AAAFFF;
+}
+
+ .fanschal{ 
+        
+    width: 20vw;
+    height: auto;
+    position: absolute ;
+    left:15vw;
+    right: auto;
+    top: 36vw;
+    z-index:2;
+}
+
+.fanschal:hover{
+    opacity: 50%;
+    cursor:pointer; 
+    box-shadow: 1px 1px 15px #AAAFFF;
+}
+
+
+ .webwerkstatt{ 
+        
+    width: 27vw;
+    height: auto;
+    position: absolute ;
+    left:37vw;
+    right: auto;
+    top: 33vw;
+    z-index:2;
+}
+
+.webwerkstatt:hover{
+    opacity: 50%;
+    cursor:pointer; 
+    box-shadow: 1px 1px 15px #AAAFFF;
+}
+
+
+ .krypto{ 
+        
+    width: 20vw;
+    height: auto;
+    position: absolute ;
+    left:66vw;
+    right: auto;
+    top: 36vw;
+    z-index:2;
+}
+
+.krypto:hover{
+    opacity: 50%;
+    cursor:pointer; 
+    box-shadow: 1px 1px 15px #AAAFFF;
+}
+
+ .drugs{ 
+        
+    width: 20vw;
+    height: auto;
+    position: absolute ;
+    left:15vw;
+    right: auto;
+    top: 63vw;
+    z-index:2;
+}
+
+.drugs:hover{
+    opacity: 50%;
+    cursor:pointer; 
+    box-shadow: 1px 1px 15px #AAAFFF;
+}
+
+
+ .rollin{ 
+        
+    width: 27vw;
+    height: auto;
+    position: absolute ;
+    left:37vw;
+    right: auto;
+    top: 55vw;
+    z-index:2;
+}
+
+.rollin:hover{
+    opacity: 50%;
+    cursor:pointer; 
+    box-shadow: 1px 1px 15px #AAAFFF;
+}
+
+ .gdg{ 
+        
+    width: 20vw;
+    height: auto;
+    position: absolute ;
+    left:66vw;
+    right: auto;
+    top: 63vw;
+    z-index:2;
+}
+
+.gdg:hover{
+    opacity: 50%;
+    cursor:pointer; 
+    box-shadow: 1px 1px 15px #AAAFFF;
+}
+
+ .bienencover{ 
+        
+    width: 27vw;
+    height: auto;
+    position: absolute ;
+    left:37vw;
+    right: auto;
+    top: 76vw;
+    z-index:2;
+}
+
+.bienencover:hover{
+    opacity: 50%;
+    cursor:pointer; 
+    box-shadow: 1px 1px 15px #AAAFFF;
+}
+
+.untererrand { 
+        
+    width: 100%;
+    height: 5vw;
+    position: absolute ;
+    top: 92vw;
+    z-index:2;
+}
+
+@media only screen and (max-width: 800px){
+
+}
+

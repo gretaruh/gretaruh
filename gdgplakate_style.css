@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    color: white;
+    font-family: 'Lucida Grande Regular',"helvetica",sans-serif;
+    font-size: 2vw;
+    
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display:block;
+}
+.menu { 
+    position: fixed; 
+    width: 100%; 
+    top: 0vw;
+    height: 7vw;
+    background-color: #AAAFFF;
+    opacity: 50%;
+    z-index: 9999999;
+    font-weight: lighter
+}
+
+.back { 
+    clear:left;
+    position:absolute;
+    height: 0vw; 
+    top: 1vw;
+    left: 1vw; 
+    opacity:100%;
+    z-index:99999;
+}
+
+.back a {    
+    color: white;
+    text-shadow: 3px 3px lightgreen;
+    text-decoration:none; 
+    font-size:3vw;
+    text-align: left;
+    z-index:99999;
+}
+
+.back a:hover { 
+    cursor:pointer;
+    color: paleturquoise;
+}
+
+.PORTFOLIO_GR { 
+     position: absolute  ; 
+     height: 0vw; 
+     top: 1vw;
+     right: 1vw; 
+     opacity:100%;
+}
+
+.PORTFOLIO_GR a {
+    text-shadow: 3px 3px lightgreen;
+    text-decoration:none; 
+    font-size:3vw;
+    text-align: right;
+    opacity: 100%;
+    z-index:99999;
+}
+
+
+
+
+
+.slider {
+    position: absolute;
+    width: 30vw;
+    height: auto;
+    left:15vw;
+    right: auto;
+    top: 14vw;
+    z-index:2;
+    overflow: hidden;
+}
+.bilder {
+    display: flex;
+    width: 60vw;
+    
+}
+.bilder img {
+    height: 42vw;
+    width: auto;
+    transition: all 0.3s  overlay;
+    
+}
+.bilder input {
+    display: none;
+    
+}
+.punkte {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.punkte label {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: solid #AAAFFF 8px;
+    cursor: pointer;
+    transition: all 0.15s linear;
+    margin: 40px;
+}
+.punkte label:hover {background: #AAAFFF;}
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -30vw;
+}
+#img3:checked ~ .m3 {
+    margin-left: -60vw;
+}
+
+
+
+
+.textcontainer{
+    width: 34vw;
+    height: 40vw;
+    position: absolute;
+    left: 59vw;
+    right: 7vw;
+    top:14vw;
+    color:darkgray;
+    font-weight: lighter;
+}
+
+.title{
+    text-decoration:none; 
+    font-size:2vw;
+    font-weight: lighter;
+    text-transform: uppercase;
+    opacity: 100%;
+    z-index:99999;
+    color:darkgray;
+}
+
+.date{
+    text-decoration:none; 
+    font-size:2vw;
+    font-weight: lighter;
+    text-transform: uppercase;
+    opacity: 100%;
+    z-index:99999;
+    color:darkgray;
+}
+
+.untererrand { 
+        
+    width: 100%;
+    height: 5vw;
+    position: absolute ;
+    top: 92vw;
+    z-index:2;
+}
+
+@media only screen and (max-width: 800px){
+
+}
+
